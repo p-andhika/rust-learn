@@ -15,6 +15,6 @@ fn main() {
         }
     }
 
-    let deck = Deck { cards: vec![] };
-    println!("Here's your deck, {:?}", deck);
+    let deck = Deck { cards };
+    println!("Here's your deck, {:#?}", deck);
 }
