@@ -18,10 +18,14 @@ impl Deck {
 
         Deck { cards }
     }
+
+    fn shuffle(&mut self) {}
 }
 
 fn main() {
-    let deck = Deck::new();
+    let mut deck = Deck::new();
+
+    deck.shuffle();
 
     println!("Here is your deck: {:#?}", deck);
 }
