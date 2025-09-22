@@ -6,7 +6,7 @@ struct Deck {
 fn main() {
     let suits = ["Diamond", "Spade"];
     let values = ["Ace", "Two", "Three"];
-    let cards = vec![];
+    let mut cards = vec![];
 
     for suit in suits {
         for value in values {
