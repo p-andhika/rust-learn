@@ -7,7 +7,7 @@ struct Deck {
 
 impl Deck {
     fn new() -> Self {
-        let suits = ["Diamond", "Spade"];
+        let suits = ["Diamond", "Spade", "Hearts"];
         let values = ["Ace", "Two", "Three"];
         let mut cards = vec![];
 
@@ -38,4 +38,5 @@ fn main() {
     let cards = deck.deal(3);
 
     println!("Here is your hand: {:#?}", cards);
+    println!("Here is your deck: {:#?}", deck);
 }
